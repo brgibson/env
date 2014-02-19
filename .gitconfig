@@ -1,0 +1,7 @@
+[diff]
+	tool = kdiff3
+[user]
+	name = Ben Gibson
+	email = fake@fake123.com
+[color]
+	ui = true
