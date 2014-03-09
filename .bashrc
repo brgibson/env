@@ -1,4 +1,4 @@
-export PATH=$PATH:/Applications/kdiff3.app/Contents/MacOS/kdiff3
+export PATH=$PATH:/Applications/kdiff3.app/Contents/MacOS
 
 alias ll="ls -l"
 
