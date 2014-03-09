@@ -5,6 +5,7 @@ alias ll="ls -l"
 #navigation
 alias aws="ssh -l $AWS_USERNAME -i $AWS_TOKEN $AWS_BOX"
 alias code="cd ~/Code"
+alias website="cd ~/Code/personal-website/www/"
 
 #when a cd won't eject
 alias eject="drutil tray eject"
