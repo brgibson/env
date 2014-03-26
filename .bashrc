@@ -4,6 +4,7 @@ alias ll="ls -l"
 
 #navigation
 alias aws="ssh -l $AWS_USERNAME -i $AWS_TOKEN $AWS_BOX"
+alias brackets="cd ~/Code/brackets"
 alias code="cd ~/Code"
 alias website="cd ~/Code/personal-website/www/"
 
@@ -55,4 +56,10 @@ alias dom="dt origin/master"
 alias gdn="git diff --color=always --name-only origin/master"
 
 # notes
+
+# git config --global user.name "John Doe"
+# git config --global user.email johndoe@example.com
+# git config --list
+# ~/.gitconfig
+
 # git push personal :<BranchName> # deletes a branch on your personal repo
