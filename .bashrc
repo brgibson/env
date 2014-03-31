@@ -4,6 +4,7 @@ alias ll="ls -l"
 
 #navigation
 alias aws="ssh -l $AWS_USERNAME -i $AWS_TOKEN $AWS_BOX"
+alias gd="ssh -l $GO_DADDY_USERNAME -i $GO_DADDY_TOKEN $GO_DADDY_BOX"
 alias brackets="cd ~/Code/brackets"
 alias code="cd ~/Code"
 alias website="cd ~/Code/personal-website/www/"
