@@ -3,12 +3,18 @@ export PATH=$PATH:/Applications/kdiff3.app/Contents/MacOS
 alias ll="ls -l"
 
 #navigation
-alias aws="ssh -l $AWS_USERNAME -i $AWS_TOKEN $AWS_BOX"
+#alias aws="ssh -l $AWS_USERNAME -i $AWS_TOKEN $AWS_BOX"
 alias gd="ssh -l $GO_DADDY_USERNAME -i $GO_DADDY_TOKEN $GO_DADDY_BOX"
+alias aws="gd"
 alias brackets="cd ~/Code/brackets"
 alias code="cd ~/Code"
 alias website="cd ~/Code/personal-website/www/"
 alias www="website"
+
+www
+
+#website release - pull newest origin master
+alias release="gd 'cd ~/www ; git fetch --all ; git checkout master ; git pull origin master'"
 
 #when a cd won't eject
 alias eject="drutil tray eject"
