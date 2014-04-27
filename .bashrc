@@ -10,11 +10,12 @@ alias brackets="cd ~/Code/brackets"
 alias code="cd ~/Code"
 alias website="cd ~/Code/personal-website/www/"
 alias www="website"
+alias blog="cd ~/Code/blog"
 
 www
 
 #website release - pull newest origin master
-alias release="gd 'cd ~/www ; git fetch --all ; git checkout master ; git pull origin master'"
+alias release="gd 'cd ~/www ; git fetch origin; git checkout master ; git reset --hard origin/master'"
 
 #when a cd won't eject
 alias eject="drutil tray eject"
@@ -71,3 +72,6 @@ alias gdn="git diff --color=always --name-only origin/master"
 # ~/.gitconfig
 
 # git push personal :<BranchName> # deletes a branch on your personal repo
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
