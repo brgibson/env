@@ -11,6 +11,7 @@ alias code="cd ~/Code"
 alias website="cd ~/Code/personal-website/www/"
 alias www="website"
 alias blog="cd ~/Code/blog"
+alias hero="cd ~/Code/heroku"
 
 www
 
