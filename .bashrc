@@ -12,14 +12,16 @@ alias website="cd ~/Code/personal-website/www/"
 alias www="website"
 alias blog="cd ~/Code/blog"
 alias hero="cd ~/Code/heroku"
-
-www
+alias ghost="cd ~/Code/Ghost"
 
 #heroku
 alias hstatus="heroku ps"
 alias hps="hstatus"
 alias hpstype="heroku ps:scale web=1"
 alias hopen="heroku open"
+alias hlocally="foreman start" #localhost:5000"
+alias hl="hlocally"
+
 
 #website release - pull newest origin master
 alias release="gd 'cd ~/www ; git fetch origin; git checkout master ; git reset --hard origin/master'"
