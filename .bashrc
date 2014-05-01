@@ -15,11 +15,21 @@ alias hero="cd ~/Code/heroku"
 
 www
 
+#heroku
+alias hstatus="heroku ps"
+alias hps="hstatus"
+alias hpstype="heroku ps:scale web=1"
+alias hopen="heroku open"
+
 #website release - pull newest origin master
 alias release="gd 'cd ~/www ; git fetch origin; git checkout master ; git reset --hard origin/master'"
+alias hrelease="git push heroku master -f"
 
 #when a cd won't eject
 alias eject="drutil tray eject"
+
+#sweet unix commands
+copy () { `pbcopy < $1`; }
 
 #.bash shortcuts-------------
 alias profile="emacs ~/.bash_profile"
