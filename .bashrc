@@ -24,8 +24,8 @@ alias hl="hlocally"
 
 
 #website release - pull newest origin master
-alias release="gd 'cd ~/www ; git fetch origin; git checkout master ; git reset --hard origin/master'"
 alias hrelease="git push heroku master -f"
+alias release="hrelease"
 
 #when a cd won't eject
 alias eject="drutil tray eject"
